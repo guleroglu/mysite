@@ -8,6 +8,9 @@ body {
     background: rgba(8, 20, 41, 0.963);
     color-scheme: dark;
     font-size: 12px;
+    height: 100vh;
+    
+    
 }
 header {
     display: flex;
