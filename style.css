@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background: rgba(8, 20, 41, 0.963);
+    color-scheme: dark;
+    font-size: 12px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 60px;
+}
+.container {
+    width: 50%;
+    margin: auto;
+}
+.mode{
+    background: white;
+    color: black;
+}
+.text {
+    color: #a9a9a9;
+    
+    letter-spacing: 2px;
+}
+.text h1 {
+    font-size: 3em;
+}
+.text h3 {
+    padding-top: 4px;
+    font-size: 1.9em;
+}
+.text p {
+    padding-top: 12px;
+    font-size: 1.5em;
+}
+.icons {
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    
+    
+}
+i {
+    padding: 10px;
+    margin: 20px;
+    color: #a9a9a9;
+    font-size: 30px;
+}
+#github:hover{
+    color: lime;
+    transform: scale(1.1);
+    transition: 0.25s;
+    
+    
+}
+#linkedn:hover {
+    color: rgb(26, 74, 103);
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+#insta:hover {
+    color: rgb(237, 178, 17);
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+#mail:hover {
+    color: lime;
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+@media (max-width:400px) {
+    .container {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .text {
+        margin-left: 6px;
+    }
+    .text h1 {
+        font-size: 24px;
+    }
+    .text h3 {
+        font-size: 16px;
+    }
+    .text p {
+        
+        width: 100%;
+        margin-top: 10px;
+    }
+   
+
+    .icons {
+        width: 100%;
+        margin: auto;
+        margin-top: 35px;
+        
+    }
+
+
+}
