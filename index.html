@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Güleroğlu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body id="body">
+    <i class="fa-solid fa-cloud-moon" onclick="ChangeMode()"></i>
+    <header>
+        <img src="/images/b54b7311-e144-43fb-abc7-f2d1ddeac842.webp" alt="">
+    </header>
+
+    <div class="container">
+        <div class="text">
+            <h1 id="h1">Hello I'm Mustafa</h1>
+            <h3 id="h3">Front-End Developer</h3>
+            <p id="p">Hello I'm Mustafa and 22 years old.I live in Turkey.I am interested in frontend development and i am
+                improving myself.</p>
+        </div>
+
+        <div class="icons">
+            <center>
+                <a href="https://github.com/guleroglu" target="_blank"><i id="github"
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mustafa-g%C3%BClero%C4%9Flu-a747ba24a/" target="_blank"><i
+                        id="linkedn" class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/guuleroglu/" target="_blank"><i id="insta"
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:must60yyy@gmail.com" target="_blank"><i id="mail"
+                        class="fa-regular fa-envelope"></i></a>
+            </center>
+
+        </div>
+
+    </div>
+
+    <script>
+        function ChangeMode() {
+            var element = document.getElementById("h1");
+            element.classList.toggle("mode");
+            var body = document.getElementById("body");
+            body.classList.toggle("mode");
+            var h3 = document.getElementById("h3");
+            h3.classList.toggle("mode");
+            var p = document.getElementById("p");
+            p.classList.toggle("mode");
+        }
+    </script>
+
+</body>
+
+</html>
